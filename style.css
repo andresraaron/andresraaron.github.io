@@ -1,8 +1,8 @@
 html, body {
 	font-family: 'Roboto', sans-serif;
 	background-color: #d1d3d6;
-	margin: 0px 70px 10px 70px;
-	width: 90%;
+	margin: 0px 100px 10px 100px;
+	width: 88%;
 	height: 100%;
 }
 
@@ -26,15 +26,31 @@ h1 {
 	overflow: hidden;
 	border-style: solid;
 	border-width: 2px;
+	max-width: 95%
 }
 
 .header li {
 	float: left;
-	padding-right: 125px;
+	padding-right: 100px;
 }
 
 .main {
 
+}
+
+img {
+	float: right;
+	border-width: 2px;
+	border-style: solid;
+	width: 200px;
+	height: 225px;
+	margin-top: 20px;
+	margin-right: 58px
+
+	/*--- 
+	width: 275px;
+	height: 225px;
+	---*/
 }
 
 h2 {
@@ -50,8 +66,12 @@ h3 {
 
 p {
 	font-size: 20px;
-	max-width: 95%;
+	max-width: 96%;
 	padding-bottom: 0px;
+}
+
+p a {
+	text-decoration: none;
 }
 
 .footer ul {
