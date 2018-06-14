@@ -40,17 +40,12 @@ h1 {
 
 img {
 	float: right;
-	border-width: 2px;
-	border-style: solid;
+	padding:1px;
+   	border:1px solid #021a40;
 	width: 200px;
 	height: 225px;
 	margin-top: 20px;
-	margin-right: 58px
-
-	/*--- 
-	width: 275px;
-	height: 225px;
-	---*/
+	margin-right: 58px;
 }
 
 h2 {
